@@ -1,0 +1,68 @@
+﻿body {
+	display:flex;
+	flex-direction: column;
+}
+
+.boardDiv {
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-width: 5px;
+}
+
+.rowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.whiteSquare {
+    width: 60px;
+    height: 60px;
+}
+
+.blackSquare {
+    width: 60px;
+    height: 60px;
+}
+
+.gameDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 220px;
+    background-color: rgb(211,211,211);
+    border-style: ridge;
+    border: 2px ridge rgb(190, 190, 190);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.selectDiv {
+    display: flex;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(128,128,128);
+    border-radius: 5px;
+}
+
+select {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(128,128,128);
+    border: 2px groove rgb(190, 190, 190);
+    border-radius: 5px;
+}
+
+.newGameButton {
+    height: 50px;
+}
